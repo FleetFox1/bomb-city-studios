@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Bomb City Studios | Local Web Design in Amarillo",
   description: "Affordable, professional websites for Amarillo businesses. Bilingual service. No contracts. Starting at $299.",
+  icons: {
+    icon: '/bomb-logo.png',
+  },
 };
 
 export default function RootLayout({

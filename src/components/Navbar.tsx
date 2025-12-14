@@ -10,8 +10,13 @@ export default function Navbar() {
     <nav className="bg-neutral-900 border-b border-neutral-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-xl font-bold text-white">
-            Bomb City Studios
+          <Link href="/" className="flex items-center space-x-3">
+            <img 
+              src="/bomb-logo.png" 
+              alt="Bomb City Studios" 
+              className="h-10 w-10 rounded-lg"
+            />
+            <span className="text-xl font-bold text-white">Bomb City Studios</span>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
