@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bomb City Studios | Local Web Design in Amarillo",
-  description: "Affordable, professional websites for Amarillo businesses. Bilingual service. No contracts. Starting at $299.",
+  title: "Bomb City Studios | Affordable Web Design in Amarillo, TX",
+  description: "Affordable websites for local service businesses in Amarillo. Mobile-friendly, fast, and built to help customers call or contact you easily.",
   icons: {
     icon: '/bomb-logo.png',
   },

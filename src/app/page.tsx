@@ -9,8 +9,16 @@ export default function Home() {
   return (
     <div className="bg-neutral-950">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-neutral-900 to-neutral-950 py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative bg-gradient-to-b from-neutral-900 to-neutral-950 py-20 px-4 overflow-visible">
+        {/* Background Logo */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-20 pointer-events-none">
+          <img 
+            src="/bomb-logo.png" 
+            alt="" 
+            className="w-[600px] h-[600px] object-contain"
+          />
+        </div>
+        <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             {t('home.hero.title')}
           </h1>

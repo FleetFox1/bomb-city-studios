@@ -11,12 +11,14 @@ export default function ServicesPage() {
       name: t('services.starter.name'),
       price: t('services.starter.price'),
       description: t('services.starter.description'),
+      idealFor: t('services.starter.idealFor'),
       features: t('services.starter.features') as unknown as string[],
     },
     {
       name: t('services.business.name'),
       price: t('services.business.price'),
       description: t('services.business.description'),
+      idealFor: t('services.business.idealFor'),
       features: t('services.business.features') as unknown as string[],
       popular: true,
     },
@@ -27,6 +29,11 @@ export default function ServicesPage() {
       features: t('services.support.features') as unknown as string[],
     },
   ];
+
+  const processSteps = t('services.process.steps') as unknown as Array<{
+    title: string;
+    description: string;
+  }>;
 
   return (
     <div className="bg-neutral-950 min-h-screen py-20 px-4">
@@ -61,9 +68,14 @@ export default function ServicesPage() {
               <p className="text-orange-500 text-2xl font-bold mb-4">
                 {service.price}
               </p>
-              <p className="text-neutral-400 mb-6">
+              <p className="text-neutral-400 mb-4">
                 {service.description}
               </p>
+              {service.idealFor && (
+                <p className="text-neutral-500 text-sm mb-6 italic">
+                  {service.idealFor}
+                </p>
+              )}
               <ul className="space-y-3 mb-8">
                 {service.features.map((feature, i) => (
                   <li key={i} className="text-neutral-300 flex items-start">
@@ -74,6 +86,48 @@ export default function ServicesPage() {
               </ul>
             </div>
           ))}
+        </div>
+
+        {/* Our Simple Process Section */}
+        <div className="mb-16 bg-neutral-900 border border-neutral-800 rounded-lg p-8 md:p-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
+            {t('services.process.title')}
+          </h2>
+          <p className="text-neutral-400 text-center mb-12 max-w-2xl mx-auto">
+            {t('services.process.subtitle')}
+          </p>
+
+          {/* Process Steps - Horizontal on Desktop, Vertical on Mobile */}
+          <div className="grid md:grid-cols-4 gap-6 mb-8">
+            {processSteps.map((step, index) => (
+              <div key={index} className="relative">
+                {/* Step Number */}
+                <div className="flex items-center mb-4 md:justify-center">
+                  <div className="w-10 h-10 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-lg">
+                    {index + 1}
+                  </div>
+                  {/* Connector Line - Hidden on last item and mobile */}
+                  {index < processSteps.length - 1 && (
+                    <div className="hidden md:block flex-1 h-0.5 bg-neutral-700 ml-2"></div>
+                  )}
+                </div>
+                
+                {/* Step Content */}
+                <div className="md:text-center">
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    {step.title}
+                  </h3>
+                  <p className="text-neutral-400 text-sm">
+                    {step.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-neutral-500 text-sm text-center italic">
+            {t('services.process.note')}
+          </p>
         </div>
 
         <div className="text-center">

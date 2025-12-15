@@ -51,8 +51,8 @@ const translations = {
     },
     home: {
       hero: {
-        title: 'Local Web Design for Amarillo Businesses',
-        subtitle: 'Affordable, professional websites that help your business grow',
+        title: 'Affordable Web Design in Amarillo, TX',
+        subtitle: 'Mobile-friendly websites for local service businesses',
         primaryCTA: 'Request a Quote',
         secondaryCTA: 'Hablamos Español',
       },
@@ -66,7 +66,7 @@ const translations = {
         business: {
           name: 'Business Website',
           price: 'Starting at $499',
-          features: ['4–6 pages', 'Services + gallery', 'Basic SEO', 'Contact + call buttons'],
+          features: ['4–6 pages', 'Services + gallery', 'Basic SEO', 'Social media links'],
         },
         support: {
           name: 'Optional Support',
@@ -91,25 +91,70 @@ const translations = {
       },
     },
     services: {
-      title: 'Our Services',
-      subtitle: 'Simple, affordable websites for local businesses',
+      title: 'Affordable Websites for Local Service Businesses',
+      subtitle: 'Clean, mobile-friendly websites that help your customers call, message, or request a quote.',
       starter: {
         name: 'Starter Website',
         price: 'Starting at $299',
-        description: 'Perfect for small businesses just getting started online',
-        features: ['1–3 pages', 'Mobile-friendly design', 'Contact form', 'Click-to-call button', 'Fast setup'],
+        description: 'Perfect for small businesses just getting started online.',
+        idealFor: 'Ideal for cleaning, landscaping, handyman, and small local service businesses.',
+        features: [
+          '1–3 pages', 
+          'Mobile-friendly design', 
+          'Contact form', 
+          'Click-to-call button', 
+          'Social media links (Facebook, Instagram, Google Business, etc.)',
+          'Fast setup'
+        ],
       },
       business: {
         name: 'Business Website',
         price: 'Starting at $499',
-        description: 'Full-featured site for established businesses',
-        features: ['4–6 pages', 'Services page + photo gallery', 'Basic SEO optimization', 'Contact forms + call buttons', 'Social media integration'],
+        description: 'Full-featured site for established businesses.',
+        idealFor: 'Connect your Facebook, Instagram, or Google Business profile so customers can find and trust you faster.',
+        features: [
+          '4–6 pages', 
+          'Services page + photo gallery', 
+          'Basic SEO optimization', 
+          'Contact forms + call buttons', 
+          'Social media links and optional embedded feed',
+          'Help customers find you everywhere'
+        ],
       },
       support: {
         name: 'Optional Support',
         price: 'Starting at $25/month',
-        description: 'Keep your website fresh and running smoothly',
-        features: ['Content updates', 'Small design changes', 'Hosting assistance', 'Email support', 'No long-term contract'],
+        description: 'Keep your website fresh and running smoothly.',
+        features: [
+          'Content updates', 
+          'Small design changes', 
+          'Hosting assistance', 
+          'Email support', 
+          'No long-term contract'
+        ],
+      },
+      process: {
+        title: 'Our Simple Process',
+        subtitle: 'We keep things simple and collaborative. You don\'t need to know tech — just tell us what you want.',
+        steps: [
+          {
+            title: 'Contact & Discussion',
+            description: 'We learn about your business, services, and goals.',
+          },
+          {
+            title: 'Starter Design or Prototype',
+            description: 'We create a first version using proven layouts — or your ideas.',
+          },
+          {
+            title: 'Review & Adjust',
+            description: 'You give feedback. We refine colors, wording, and layout. This includes connecting social media links, contact buttons, and any profiles you already use.',
+          },
+          {
+            title: 'Go Live',
+            description: 'Your website goes live and is ready to share with customers.',
+          },
+        ],
+        note: 'You can start with one of our suggested designs, or bring your own ideas — we\'ll adjust it together.',
       },
       cta: 'Get Started Today',
     },
@@ -144,6 +189,7 @@ const translations = {
     footer: {
       tagline: 'Local web design for Amarillo businesses',
       rights: '© 2025 Bomb City Studios. All rights reserved.',
+      locationTag: 'Serving Amarillo and nearby areas — websites that work with your phone number, social media, and Google listing.',
       contact: {
         title: 'Contact',
         phoneNote: 'Prefer message/text first',
@@ -210,8 +256,8 @@ const translations = {
     },
     home: {
       hero: {
-        title: 'Diseño Web Local para Negocios de Amarillo',
-        subtitle: 'Sitios web profesionales y asequibles que ayudan a crecer su negocio',
+        title: 'Diseño Web Asequible en Amarillo, TX',
+        subtitle: 'Sitios web compatibles con móviles para negocios de servicios locales',
         primaryCTA: 'Solicitar Cotización',
         secondaryCTA: 'We Speak English',
       },
@@ -225,7 +271,7 @@ const translations = {
         business: {
           name: 'Sitio Web Empresarial',
           price: 'Desde $499',
-          features: ['4–6 páginas', 'Servicios + galería', 'SEO básico', 'Contacto + botones de llamada'],
+          features: ['4–6 páginas', 'Servicios + galería', 'SEO básico', 'Enlaces de redes sociales'],
         },
         support: {
           name: 'Soporte Opcional',
@@ -250,25 +296,70 @@ const translations = {
       },
     },
     services: {
-      title: 'Nuestros Servicios',
-      subtitle: 'Sitios web simples y asequibles para negocios locales',
+      title: 'Sitios Web Asequibles para Negocios de Servicios Locales',
+      subtitle: 'Sitios web limpios y compatibles con móviles que ayudan a sus clientes a llamar, enviar mensajes o solicitar cotizaciones.',
       starter: {
         name: 'Sitio Web Básico',
         price: 'Desde $299',
-        description: 'Perfecto para pequeñas empresas que empiezan en línea',
-        features: ['1–3 páginas', 'Diseño compatible con móviles', 'Formulario de contacto', 'Botón de llamada directa', 'Configuración rápida'],
+        description: 'Perfecto para pequeñas empresas que empiezan en línea.',
+        idealFor: 'Ideal para negocios de limpieza, jardinería, mantenimiento y pequeños servicios locales.',
+        features: [
+          '1–3 páginas',
+          'Diseño compatible con móviles',
+          'Formulario de contacto',
+          'Botón de llamada directa',
+          'Enlaces de redes sociales (Facebook, Instagram, Google Business, etc.)',
+          'Configuración rápida'
+        ],
       },
       business: {
         name: 'Sitio Web Empresarial',
         price: 'Desde $499',
-        description: 'Sitio completo para negocios establecidos',
-        features: ['4–6 páginas', 'Página de servicios + galería de fotos', 'Optimización SEO básica', 'Formularios de contacto + botones de llamada', 'Integración de redes sociales'],
+        description: 'Sitio completo para negocios establecidos.',
+        idealFor: 'Conecte su perfil de Facebook, Instagram o Google Business para que los clientes lo encuentren y confíen en usted más rápido.',
+        features: [
+          '4–6 páginas',
+          'Página de servicios + galería de fotos',
+          'Optimización SEO básica',
+          'Formularios de contacto + botones de llamada',
+          'Enlaces de redes sociales y feed incrustado opcional',
+          'Ayude a los clientes a encontrarlo en todas partes'
+        ],
       },
       support: {
         name: 'Soporte Opcional',
         price: 'Desde $25/mes',
-        description: 'Mantenga su sitio web actualizado y funcionando bien',
-        features: ['Actualizaciones de contenido', 'Pequeños cambios de diseño', 'Asistencia con hosting', 'Soporte por email', 'Sin contrato a largo plazo'],
+        description: 'Mantenga su sitio web actualizado y funcionando bien.',
+        features: [
+          'Actualizaciones de contenido',
+          'Pequeños cambios de diseño',
+          'Asistencia con hosting',
+          'Soporte por email',
+          'Sin contrato a largo plazo'
+        ],
+      },
+      process: {
+        title: 'Nuestro Proceso Simple',
+        subtitle: 'Mantenemos las cosas simples y colaborativas. No necesita saber de tecnología, solo díganos lo que quiere.',
+        steps: [
+          {
+            title: 'Contacto y Discusión',
+            description: 'Aprendemos sobre su negocio, servicios y objetivos.',
+          },
+          {
+            title: 'Diseño Inicial o Prototipo',
+            description: 'Creamos una primera versión usando diseños comprobados, o sus ideas.',
+          },
+          {
+            title: 'Revisión y Ajustes',
+            description: 'Usted da su opinión. Refinamos colores, redacción y diseño. Esto incluye conectar enlaces de redes sociales, botones de contacto y cualquier perfil que ya use.',
+          },
+          {
+            title: 'Publicación',
+            description: 'Su sitio web se publica y está listo para compartir con sus clientes.',
+          },
+        ],
+        note: 'Puede comenzar con uno de nuestros diseños sugeridos, o traer sus propias ideas: lo ajustaremos juntos.',
       },
       cta: 'Comience Hoy',
     },
@@ -303,6 +394,7 @@ const translations = {
     footer: {
       tagline: 'Diseño web local para negocios de Amarillo',
       rights: '© 2025 Bomb City Studios. Todos los derechos reservados.',
+      locationTag: 'Sirviendo a Amarillo y áreas cercanas: sitios web que funcionan con su número de teléfono, redes sociales y listado de Google.',
       contact: {
         title: 'Contacto',
         phoneNote: 'Preferimos mensaje/texto primero',

@@ -70,6 +70,7 @@ export default function Footer() {
 
         <div className="border-t border-neutral-800 pt-8 text-center">
           <p className="text-neutral-400 mb-2">{t('footer.tagline')}</p>
+          <p className="text-neutral-500 text-sm mb-2">{t('footer.locationTag')}</p>
           <p className="text-neutral-500 text-sm">{t('footer.rights')}</p>
         </div>
       </div>
