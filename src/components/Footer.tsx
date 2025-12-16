@@ -51,20 +51,19 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Social Media - Placeholders */}
+          {/* Social Media */}
           <div>
             <h3 className="text-white font-semibold mb-4">{t('footer.social.title')}</h3>
-            <p className="text-neutral-500 text-sm">{t('footer.social.comingSoon')}</p>
-            {/* 
             <div className="flex space-x-4">
-              <a href="#" className="text-neutral-400 hover:text-orange-500 transition">
+              <a 
+                href="https://www.facebook.com/profile.php?id=61585279348119" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-400 hover:text-orange-500 transition"
+              >
                 Facebook
               </a>
-              <a href="#" className="text-neutral-400 hover:text-orange-500 transition">
-                Instagram
-              </a>
             </div>
-            */}
           </div>
         </div>
 
