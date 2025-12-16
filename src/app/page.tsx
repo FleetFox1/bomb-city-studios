@@ -50,7 +50,7 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Starter */}
-            <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-8 hover:border-orange-600 transition">
+            <Link href="/services" className="bg-neutral-900 border border-neutral-800 rounded-lg p-8 hover:border-orange-600 transition block">
               <h3 className="text-2xl font-bold text-white mb-2">
                 {t('home.services.starter.name')}
               </h3>
@@ -65,10 +65,10 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Link>
 
             {/* Business */}
-            <div className="bg-neutral-900 border-2 border-orange-600 rounded-lg p-8 relative">
+            <Link href="/services" className="bg-neutral-900 border-2 border-orange-600 rounded-lg p-8 relative block">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-orange-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
                 Popular
               </div>
@@ -86,10 +86,10 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Link>
 
             {/* Support */}
-            <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-8 hover:border-orange-600 transition">
+            <Link href="/services" className="bg-neutral-900 border border-neutral-800 rounded-lg p-8 hover:border-orange-600 transition block">
               <h3 className="text-2xl font-bold text-white mb-2">
                 {t('home.services.support.name')}
               </h3>
@@ -104,7 +104,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Link>
           </div>
           <div className="text-center mt-12">
             <Link
